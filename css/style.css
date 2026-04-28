@@ -1,0 +1,20 @@
+:root {
+    --primary-cream: #F7F2E6;
+    --secoundary-cream: #F8EBB9;
+    --primary-green: #DCF5D1;
+    --secoundary-green: #C8F5C8;
+    --thirty-green: #7AA87E;
+    --fourthy-green: #528058;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: "Square Peg", sans-serif;
+}
+
+.container{
+   width: 1100px;
+   margin: 0 auto; 
+}
+
+/* header */
