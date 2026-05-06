@@ -12,9 +12,141 @@ body {
     font-family: "Square Peg", sans-serif;
 }
 
-.container{
+.container {
    width: 1100px;
    margin: 0 auto; 
 }
 
 /* header */
+
+.page-header {
+    height: 150px;
+    background-color: var(--fourthy-green);
+}
+
+.page-header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    height: 100%;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+
+}
+
+.header-logo img {
+    width: auto;
+    height: 90px;
+    display: block;
+}
+
+.header-logo-name {
+    font-family: "Square Peg", sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    color: var(--primary-cream);
+    line-height: 1;
+    
+}
+
+.header-logo-name span {
+    text-transform: uppercase;
+    color: var(--primary-green);
+}
+
+.nav-menu {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-menu ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu a {
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 400;
+    color: var(--primary-green);
+}
+
+.nav-menu-button {
+    background-color: var(--secoundary-cream);
+    color: var(--thirty-green);
+    text-decoration: none;
+    font-weight: 600;
+    padding: 5px 15px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+/* banner */
+
+.page-banner {
+    background-image: url(/images/photo-banner.jpg);
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.page-banner::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(229, 228, 175, 0.4);
+    z-index: 0;
+    pointer-events: none;
+}
+
+.page-banner .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.page-title {
+    font-size: 60px;
+    color: var(--primary-green);
+}
+
+.banner-button {
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 35px;
+    font-weight: 400;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 20px 15px 20px 15px;
+}
+
+.banner-button-primary {
+    background-color: var(--fourthy-green);
+    border: 2px solid var(--primary-cream);
+    color: var(--primary-cream);
+}
+
+.banner-button-secondary {
+    background-color: var(--primary-cream);
+    border:  2px solid var(--fourthy-green);
+    color: var(--fourthy-green);
+}
