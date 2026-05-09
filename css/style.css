@@ -356,3 +356,45 @@ textarea::placeholder {
     font-family: "Square Peg", sans-serif;
     font-size: 25px;
 }
+
+/* footer */
+
+.page-footer {
+    height: auto;
+    background-color: var(--primary-cream);
+}
+
+.page-footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap:20px;
+}
+
+.footer-logo-img {
+    width: auto;
+    height: 90px;
+    display: block;
+    margin:30px;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-nav a {
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--fourthy-green);
+    margin:6px;
+}
+
+.footer-copyright {
+    display: flex;
+    align-self: flex-end;
+    color: var(--fourthy-green);
+}
