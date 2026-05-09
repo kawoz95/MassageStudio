@@ -125,6 +125,57 @@
                 </div>
             </div>
         </section>
+        <section class="booking">
+            <h2 class="form-heading">Zarezerwuj chwilę dla siebie</h2>
+                <div class="container">
+                    <img class="booking-img" src="./images/photo-banner.jpg">
+
+                    <form class="booking-form" action="#" method="post">
+                        <div class="form-group">
+                            <label for="name"></label>
+                            <input type="text" id="name" name="name" placeholder="imię i nazwisko" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone"></label>
+                            <input type="tel" id="phone" name="phone" placeholder="numer telefonu" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email"></label>
+                            <input type="email" id="email" name="email" placeholder="adres e-mail">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service"></label>
+                            <select id="service" name="service" required>
+                                <option value="">wybierz usługę</option>
+                                <option>Masaż sportowy</option>
+                                <option>Masaż relaksacyjny</option>
+                                <option>Masaż leczniczy</option>
+                                <option>Konsultacja</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="date"></label>
+                            <input type="date" name="date" id="date" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="time"></label>
+                            <input type="time" name="time" id="time" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message"></label>
+                            <textarea name="message" id="message" placeholder="Inne informację"></textarea>
+                        </div>
+
+                        <button type="submit" class="form-button">Zarezerwuj wizytę</button>
+                    </form>
+            </div>
+        </section>
 
     </main>
 
